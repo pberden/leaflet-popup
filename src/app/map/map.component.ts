@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { marker, icon, Marker, tileLayer } from 'leaflet';
 import { environment } from '../../environments/environment';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog } from '@angular/material';
 import { DialogComponent } from '../dialog/dialog.component';
 
 @Component({
