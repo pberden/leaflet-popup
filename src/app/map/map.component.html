@@ -1,0 +1,10 @@
+<div class="bottom-left">
+  <button mat-button
+    (click)="click()">Action</button>
+</div>
+
+<div class="map"
+  leaflet
+  [leafletOptions]="options"
+  [leafletLayers]="markers">
+</div>
